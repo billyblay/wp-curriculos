@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cv input[type=text], .cv select, .cv textarea {
+	width:450px;
+	display:block;
+}
+#side-sortables .cv input[type=text], #side-sortables .cv select, #side-sortables .cv textarea {
+	width:255px;
+}
+.cv ul, .cv ol {
+	margin:5px;
+}
+.cv li {
+	list-style:none;
+}
+fieldset.cv, div.cv {
+	padding:3px 5px;
+}
+.cv fieldset fieldset {
+	border:1px solid #ccc
+}
+#telefones input, #telefones select, #idiomas select {
+	width:125px
+}
+#telefones li, #idiomas li {
+	float:left;
+	width:140px
+}
+fieldset.datas li input.periodo { width:100px}
+fieldset.datas li { float:left; }
+.deleteMe
+{
+	display: none;
+}
+
+.duplicate .deleteMe
+{
+	display: inline;
+}
+
+.duplicate .cloneMe
+{
+	display: none;
+}
+
+fieldset
+{
+	background: #ffc;
+	border: 1px solid #999;
+	position: relative;
+}
+
+fieldset.duplicate,
+fieldset.duplicate span.tab
+{
+	background: #eef;
+}
+
+span.tab
+{
+	background: #ffc;
+	border-color: #999;
+	border-style: solid;
+	border-width: 1px 1px 1px 0;
+	display: block;
+	padding: 5px 0 7px;
+	position: absolute;
+	top: -1px;
+	right: -26px;
+	text-align: center;
+	width: 25px;
+}
+
+span.tab a.cloneMe
+{
+	background: #fff;
+	border: 1px solid #3c3;
+	color: #090;
+	padding: 0 3px 2px;
+	text-decoration: none;
+}
+
+span.tab a.cloneMe:hover
+{
+	background: #cfc;
+	color: #000;
+}
+
+span.tab a.deleteMe
+{
+	background: #fff;
+	border: 1px solid #f66;
+	color: #f00;
+	padding: 0 4px 2px;
+	text-decoration: none;
+}
+
+span.tab a.deleteMe:hover
+{
+	background: #fdd;
+	color: #000;
+}
