@@ -1,12 +1,30 @@
 <?php 
-
 /*
-Plugin Name: WP-curriculos
-Plugin URI: http://www.billyblay.com/wordpress/plugin/wpcurriculos
-Description: 
-Version: 0.1
-Author: Billy Blay
-Author URI: http://www.billyblay.com/
+	
+	wp-curriculos - wordpress plugin to create resumes
+	Copyright (C) 2011  Billy Blay
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+	Plugin Name: WP-curriculos
+	Plugin URI: http://www.billyblay.com/wordpress/plugin/wpcurriculos
+	Description: 
+	Version: 0.1
+	Author: Billy Blay
+	Author URI: http://www.billyblay.com/
+
 */
 
 $wp_plugin_url = trailingslashit(get_bloginfo('wpurl')).PLUGINDIR.'/'.dirname(plugin_basename(__FILE__));
