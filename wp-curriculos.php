@@ -30,11 +30,6 @@
 $wp_plugin_url = trailingslashit(get_bloginfo('wpurl')).PLUGINDIR.'/'.dirname(plugin_basename(__FILE__));
 add_action('save_post', 'wpcurriculos_save_postdata');
 
-function custom_login() { 
-echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/cv-pack/login.css" />'; 
-}
-add_action('login_head', 'custom_login');
-
 /* ================================= Variaveis =========== */
 
 $estadocivil	= array( 'Viúvo','Casado','Solteiro','Divorciado');
@@ -343,9 +338,7 @@ function escolaridade() {
         Cursos de pós-graduação, MBA e especialização são muito valorizados. </p>
       </div>
 <fieldset>
-<span class="tab">
-    <a href="#" onclick="cloneMe(this); return false;" class="cloneMe" title="Add">+</a>
-    <a href="#" onclick="deleteMe(this); return false;" class="deleteMe" title="Delete">x</a>    </span>
+
 <ol>
   <li>
     <label for="ensino">Tipo de ensino</label>
@@ -424,9 +417,7 @@ function curso() {
 <div class="ajuda">
       <p>Inicie mencionando os cursos mais condizentes com o seu objetivo. Coloque em ordem decrescente, o nome do curso, a instituição, ano e duração. Cursos de pós-graduação, MBA e especialização são muito valorizados. Não deixe de mencionar cursos que não tenham a ver com sua área, desde que cite como eles contribuíram para seu desenvolvimento. Por exemplo, como o curso de teatro ajudou-o a perder o medo e a inibição de falar em público e em reuniões. </p>   
     </div><fieldset>
-<span class="tab">
-    <a href="#" onclick="cloneMe(this); return false;" class="cloneMe" title="Add">+</a>
-    <a href="#" onclick="deleteMe(this); return false;" class="deleteMe" title="Delete">x</a>    </span>
+
 <ol>
   <li>
     <label for="textfield30">Curso</label>
@@ -471,9 +462,7 @@ function experiencia() {
 <div id="experiencia" class="cv">
 <div class="ajuda"><p>Estão relacionadas às empresas nas quais você trabalhou. Comece da última para a primeira empresa, colocando dados como nome da organização, cargo, tempo de trabalho e atividades / resultados. Coloque as datas de entrada e saída. Serviços temporários devem ser citados, deixando clara essa temporariedade. Para profissionais com mais de 20 anos no mercado de trabalho, geralmente não há necessidade de citar as primeiras empresas em que trabalhou.</p></div>
   <fieldset>
-  <span class="tab">
-    <a href="#" onclick="cloneMe(this); return false;" class="cloneMe" title="Add">+</a>
-    <a href="#" onclick="deleteMe(this); return false;" class="deleteMe" title="Delete">x</a>    </span>
+  
   <ol>
     <li>
        <label>
