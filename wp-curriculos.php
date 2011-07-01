@@ -30,11 +30,6 @@
 $wp_plugin_url = trailingslashit(get_bloginfo('wpurl')).PLUGINDIR.'/'.dirname(plugin_basename(__FILE__));
 add_action('save_post', 'wpcurriculos_save_postdata');
 
-function custom_login() { 
-echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/cv-pack/login.css" />'; 
-}
-add_action('login_head', 'custom_login');
-
 /* ================================= Variaveis =========== */
 
 $estadocivil	= array( 'Viúvo','Casado','Solteiro','Divorciado');
