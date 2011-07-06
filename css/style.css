@@ -23,81 +23,21 @@ fieldset.cv, div.cv {
 #telefones input, #telefones select, #idiomas select {
 	width:125px
 }
-#telefones li, #idiomas li {
+fieldset.datas li input.periodo {
+	width:100px
+}
+fieldset.datas li {
 	float:left;
-	width:140px
 }
-fieldset.datas li input.periodo { width:100px}
-fieldset.datas li { float:left; }
-.deleteMe
-{
-	display: none;
-}
-
-.duplicate .deleteMe
-{
-	display: inline;
-}
-
-.duplicate .cloneMe
-{
-	display: none;
-}
-
-fieldset
-{
+fieldset {
 	background: #ffc;
 	border: 1px solid #999;
 	position: relative;
+	clear:both
 }
-
-fieldset.duplicate,
-fieldset.duplicate span.tab
-{
-	background: #eef;
+#post-body #normal-sortables {
+	display:none
 }
-
-span.tab
-{
-	background: #ffc;
-	border-color: #999;
-	border-style: solid;
-	border-width: 1px 1px 1px 0;
-	display: block;
-	padding: 5px 0 7px;
-	position: absolute;
-	top: -1px;
-	right: -26px;
-	text-align: center;
-	width: 25px;
-}
-
-span.tab a.cloneMe
-{
-	background: #fff;
-	border: 1px solid #3c3;
-	color: #090;
-	padding: 0 3px 2px;
-	text-decoration: none;
-}
-
-span.tab a.cloneMe:hover
-{
-	background: #cfc;
-	color: #000;
-}
-
-span.tab a.deleteMe
-{
-	background: #fff;
-	border: 1px solid #f66;
-	color: #f00;
-	padding: 0 4px 2px;
-	text-decoration: none;
-}
-
-span.tab a.deleteMe:hover
-{
-	background: #fdd;
-	color: #000;
+#titlediv {
+	margin-bottom:0!important
 }

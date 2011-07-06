@@ -298,7 +298,6 @@ function idiomas() {
     </select>
   </li>
   <li>
-  	<input name="" type="text" width="80" id="resultado" />
     <input id="input3" type="button" value="Adicionar" />
   </li>
 </ol>
